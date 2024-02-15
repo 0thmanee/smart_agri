@@ -3,7 +3,8 @@
   --light-color2: #9dca49;
   --primary-color: #5bc0be;
   --light-color: #90d3d1;
-  --p-color: rgb(218, 218, 218);
+  --p-color1: #00000081;
+  --p-color2: #ffffffb8;
   --bcg-color: #0e162c;
   --bcg-color2: #1c2541;
   --bcg-color3: #3b516c;
@@ -24,7 +25,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color: #000;
   position: relative;
 }
 
@@ -108,17 +109,8 @@ input {
   border-color: var(--primary-color);
   position: relative;
 }
-.prim_btn:hover {
-  color: var(--primary-color);
-  background-color: #fff;
-  border-color: #fff;
-}
 .sec_btn {
   border-color: #fff;
-}
-.sec_btn:hover {
-  color: var(--primary-color);
-  background-color: #fff;
 }
 .main_heading {
   margin-bottom: 8rem;

@@ -53,23 +53,3 @@ navList.addEventListener("click", function (e) {
 });
 
 const navHeight = nav.getBoundingClientRect().height;
-
-const stickyNav = function (entries) {
-  const [entry] = entries;
-
-  if (!entry.isIntersecting) header.classList.add("sticky");
-  else header.classList.remove("sticky");
-};
-
-// Sup Links
-const supSrc = document.querySelector(".sup_src");
-const supLink = document.querySelector(".sup_link--disp");
-const supLinks = document.querySelector(".sup_links");
-
-let timeoutId;
-
-supLink.addEventListener("mouseover", function () {
-  clearTimeout(timeoutId);
-  supLinks.classList.add("sup_links--active");
-  wait(3).then(() => supLinks.classList.remove("sup_links--active"));
-});
