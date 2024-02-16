@@ -17,8 +17,8 @@ if (mediaQuery1.matches) {
   startedLink.classList.add("hidden");
   navList.insertAdjacentHTML(
     "beforeend",
-    `<a target="_blank" href="start" class="nav_link started_link flex"
-    >Try Bugbeat</a>`
+    `<a target="_blank" href="#" class="nav_link started_link flex"
+    >Contactez-nous</a>`
   );
 }
 
