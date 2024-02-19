@@ -98,7 +98,7 @@ input {
     font-size: 1.8rem;
   }
 }
-@media (max-width: 26em) {
+@media (max-width: 32em) {
   .main_btn {
     width: 100%;
   }
